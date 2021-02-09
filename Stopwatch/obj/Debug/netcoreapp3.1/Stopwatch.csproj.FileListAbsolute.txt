@@ -1,0 +1,11 @@
+C:\Users\francisco.silva\Documents\Fundamentos-do-CSharp\Stopwatch\bin\Debug\netcoreapp3.1\Stopwatch.exe
+C:\Users\francisco.silva\Documents\Fundamentos-do-CSharp\Stopwatch\bin\Debug\netcoreapp3.1\Stopwatch.deps.json
+C:\Users\francisco.silva\Documents\Fundamentos-do-CSharp\Stopwatch\bin\Debug\netcoreapp3.1\Stopwatch.runtimeconfig.json
+C:\Users\francisco.silva\Documents\Fundamentos-do-CSharp\Stopwatch\bin\Debug\netcoreapp3.1\Stopwatch.runtimeconfig.dev.json
+C:\Users\francisco.silva\Documents\Fundamentos-do-CSharp\Stopwatch\bin\Debug\netcoreapp3.1\Stopwatch.dll
+C:\Users\francisco.silva\Documents\Fundamentos-do-CSharp\Stopwatch\bin\Debug\netcoreapp3.1\Stopwatch.pdb
+C:\Users\francisco.silva\Documents\Fundamentos-do-CSharp\Stopwatch\obj\Debug\netcoreapp3.1\Stopwatch.csprojAssemblyReference.cache
+C:\Users\francisco.silva\Documents\Fundamentos-do-CSharp\Stopwatch\obj\Debug\netcoreapp3.1\Stopwatch.AssemblyInfoInputs.cache
+C:\Users\francisco.silva\Documents\Fundamentos-do-CSharp\Stopwatch\obj\Debug\netcoreapp3.1\Stopwatch.AssemblyInfo.cs
+C:\Users\francisco.silva\Documents\Fundamentos-do-CSharp\Stopwatch\obj\Debug\netcoreapp3.1\Stopwatch.dll
+C:\Users\francisco.silva\Documents\Fundamentos-do-CSharp\Stopwatch\obj\Debug\netcoreapp3.1\Stopwatch.pdb
