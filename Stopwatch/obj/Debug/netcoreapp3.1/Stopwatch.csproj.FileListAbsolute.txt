@@ -9,3 +9,16 @@ C:\Users\francisco.silva\Documents\Fundamentos-do-CSharp\Stopwatch\obj\Debug\net
 C:\Users\francisco.silva\Documents\Fundamentos-do-CSharp\Stopwatch\obj\Debug\netcoreapp3.1\Stopwatch.AssemblyInfo.cs
 C:\Users\francisco.silva\Documents\Fundamentos-do-CSharp\Stopwatch\obj\Debug\netcoreapp3.1\Stopwatch.dll
 C:\Users\francisco.silva\Documents\Fundamentos-do-CSharp\Stopwatch\obj\Debug\netcoreapp3.1\Stopwatch.pdb
+C:\Projetos\Fundamentos-do-CSharp\Stopwatch\bin\Debug\netcoreapp3.1\Stopwatch.exe
+C:\Projetos\Fundamentos-do-CSharp\Stopwatch\bin\Debug\netcoreapp3.1\Stopwatch.deps.json
+C:\Projetos\Fundamentos-do-CSharp\Stopwatch\bin\Debug\netcoreapp3.1\Stopwatch.runtimeconfig.json
+C:\Projetos\Fundamentos-do-CSharp\Stopwatch\bin\Debug\netcoreapp3.1\Stopwatch.runtimeconfig.dev.json
+C:\Projetos\Fundamentos-do-CSharp\Stopwatch\bin\Debug\netcoreapp3.1\Stopwatch.dll
+C:\Projetos\Fundamentos-do-CSharp\Stopwatch\bin\Debug\netcoreapp3.1\Stopwatch.pdb
+C:\Projetos\Fundamentos-do-CSharp\Stopwatch\obj\Debug\netcoreapp3.1\Stopwatch.csprojAssemblyReference.cache
+C:\Projetos\Fundamentos-do-CSharp\Stopwatch\obj\Debug\netcoreapp3.1\Stopwatch.AssemblyInfoInputs.cache
+C:\Projetos\Fundamentos-do-CSharp\Stopwatch\obj\Debug\netcoreapp3.1\Stopwatch.AssemblyInfo.cs
+C:\Projetos\Fundamentos-do-CSharp\Stopwatch\obj\Debug\netcoreapp3.1\Stopwatch.csproj.CoreCompileInputs.cache
+C:\Projetos\Fundamentos-do-CSharp\Stopwatch\obj\Debug\netcoreapp3.1\Stopwatch.dll
+C:\Projetos\Fundamentos-do-CSharp\Stopwatch\obj\Debug\netcoreapp3.1\Stopwatch.pdb
+C:\Projetos\Fundamentos-do-CSharp\Stopwatch\obj\Debug\netcoreapp3.1\Stopwatch.genruntimeconfig.cache
