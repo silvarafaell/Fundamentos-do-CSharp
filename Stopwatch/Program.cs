@@ -19,7 +19,10 @@ namespace Stopwatch
             Console.WriteLine("Quanto tempo deseja contar?");
 
             string data = Console.ReadLine().ToLower(); //ToLower coloca para minusculo
+            char type = char.Parse(data.Substring(data.Length - 1, 1)); //Length conta o numero de catacteres
             Console.WriteLine(data);
+            Console.WriteLine(type);
+
         }
 
         static void Start(int time)
