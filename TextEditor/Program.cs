@@ -46,7 +46,7 @@ namespace TextEditor
             }
             while (Console.ReadKey().Key != ConsoleKey.Escape);
 
-            Console.Write(text);
+            Salvar(text);
         }
 
         static void Salvar(string text)
@@ -60,6 +60,10 @@ namespace TextEditor
             {
                 file.Write(text);//escreva
             }
+
+            Console.WriteLine($"Arquivo {path} salvo com sucesso");
+            Console.ReadLine();
+            Menu();
         }
     }
 }
