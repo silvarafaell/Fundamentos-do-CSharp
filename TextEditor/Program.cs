@@ -35,7 +35,7 @@ namespace TextEditor
 
             using (var file = new StreamReader(path))
             {
-                string text = file.RendToEnd();
+                string text = file.ReadToEnd();
                 Console.WriteLine(text);
             }
 
