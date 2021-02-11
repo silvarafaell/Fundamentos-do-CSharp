@@ -6,13 +6,12 @@ namespace MyApp
     {
         static void Main(string[] args)
         {
-            var id = Guid.NewGuid(); // gera com id novo
-            id.ToString();
+            var price = 10.2;
+            //var texto = "O preço do produto é " + price;
+            //var texto = string.Format("O preço do produto é {0} apenas na promoção", price);
+            var texto = $@"O preço do produto é {price} apenas na promoção";
 
-            id = new Guid("7874f71e-d53a-42d8-b7b1-4457f5b49bc3");
-
-            if (id == Guid.NewGuid())
-                Console.WriteLine(id.ToString().Substring(0, 8)); //SubString para pegar os 8 primeiros caracteres
+            Console.WriteLine(texto);
         }
     }
 }
