@@ -6,15 +6,10 @@ namespace MyApp
     {
         static void Main(string[] args)
         {
-            //começa com e termina com
+            //comparacao de identico
             var texto = "Este texto é um teste";
-            Console.WriteLine(texto.StartsWith("Este"));
-            Console.WriteLine(texto.StartsWith("este", StringComparison.OrdinalIgnoreCase));
-            Console.WriteLine(texto.StartsWith("texto"));
-
-            Console.WriteLine(texto.EndsWith("texte"));
-            Console.WriteLine(texto.EndsWith("Texte"));
-            Console.WriteLine(texto.EndsWith("xpro"));
+            Console.WriteLine(texto.Equals("Este texto é um teste"));
+            Console.WriteLine(texto.Equals("este texto é um teste"));
 
         }
     }
