@@ -8,8 +8,10 @@ namespace MyApp
         {
             //busca pelo o caractere
             var texto = "Este texto é um teste";
-            Console.WriteLine(texto.IndexOf("é"));
-            Console.WriteLine(texto.LastIndexOf("s")); //ultima letra s
+            Console.WriteLine(texto.ToLower());
+            Console.WriteLine(texto.ToUpper());
+            Console.WriteLine(texto.Length); //mostra numero de caracteres
+    
         }
     }
 }
