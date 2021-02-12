@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 namespace MyApp
 {
@@ -6,10 +7,12 @@ namespace MyApp
     {
         static void Main(string[] args)
         {
-            //busca pelo o caractere
-            var texto = "Este texto é um teste";
-            Console.WriteLine(texto.Replace("Este", "isto")); //troca Este por isto
-    
+            var texto = new StringBuilder();
+            texto.Append("Este texto é um teste");
+            texto.Append("é um teste");
+
+            Console.WriteLine(texto);
+
         }
     }
 }
