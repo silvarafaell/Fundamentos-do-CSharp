@@ -8,9 +8,7 @@ namespace MyApp
         {
             //busca pelo o caractere
             var texto = "Este texto é um teste";
-            Console.WriteLine(texto.ToLower());
-            Console.WriteLine(texto.ToUpper());
-            Console.WriteLine(texto.Length); //mostra numero de caracteres
+            Console.WriteLine(texto.Replace("Este", "isto")); //troca Este por isto
     
         }
     }
