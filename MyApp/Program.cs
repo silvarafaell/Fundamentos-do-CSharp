@@ -6,11 +6,10 @@ namespace MyApp
     {
         static void Main(string[] args)
         {
-            //comparacao de identico
+            //busca pelo o caractere
             var texto = "Este texto é um teste";
-            Console.WriteLine(texto.Equals("Este texto é um teste"));
-            Console.WriteLine(texto.Equals("este texto é um teste"));
-
+            Console.WriteLine(texto.IndexOf("é"));
+            Console.WriteLine(texto.LastIndexOf("s")); //ultima letra s
         }
     }
 }
