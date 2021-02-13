@@ -7,11 +7,12 @@ namespace MyApp
     {
         static void Main(string[] args)
         {
-            var texto = new StringBuilder();
-            texto.Append("Este texto é um teste");
-            texto.Append("é um teste");
+            Console.Clear();
 
-            Console.WriteLine(texto);
+            //var data = new DateTime();
+            var data = DateTime.Now; //pega a data atual
+
+            Console.WriteLine(data);
 
         }
     }
