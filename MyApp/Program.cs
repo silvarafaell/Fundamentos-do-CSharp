@@ -11,7 +11,8 @@ namespace MyApp
 
             var data = DateTime.Now;
 
-            var formatada = String.Format("{0: dd/MM/yyyy }", data);
+            var formatada = String.Format("{0:T}", data);
+            //var formatada = String.Format("{0:D}", data);
             Console.WriteLine(formatada);
 
 
