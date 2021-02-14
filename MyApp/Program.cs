@@ -10,12 +10,11 @@ namespace MyApp
             Console.Clear();
 
             var data = DateTime.Now;
+
+            if (data.Date == DateTime.Now.Date)
+                Console.WriteLine("É igual");
+
             Console.WriteLine(data);
-            Console.WriteLine(data.AddDays(-12));
-            Console.WriteLine(data.AddMonths(1));
-            Console.WriteLine(data.AddHours(1));
-
-
         }
     }
 }
