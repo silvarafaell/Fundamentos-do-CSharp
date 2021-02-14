@@ -50,7 +50,7 @@ namespace EditorHtml
             Console.SetCursorPosition(3, 2);
             Console.WriteLine("Editor HTML");
             Console.SetCursorPosition(3, 3);
-            Console..WriteLine("===========");
+            Console.WriteLine("===========");
             Console.SetCursorPosition(3, 4);
             Console.WriteLine("Selecione uma opção abaixo");
             Console.SetCursorPosition(3, 6);

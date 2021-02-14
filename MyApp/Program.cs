@@ -9,17 +9,11 @@ namespace MyApp
         {
             Console.Clear();
 
-            var data = new DateTime(2021, 02, 13, 07, 48, 50);
-            //var data = DateTime.Now; //pega a data atual
-            Console.WriteLine(data);
-            Console.WriteLine(data.Year);
-            Console.WriteLine(data.Month);
-            Console.WriteLine(data.Day);
-            Console.WriteLine(data.Hour);
-            Console.WriteLine(data.Minute);
-            Console.WriteLine(data.Second);
+            var data = DateTime.Now;
 
-            Console.WriteLine((int)data.DayOfWeek); //pega de um enum
+            var formatada = String.Format("{0: dd/MM/yyyy }", data);
+            Console.WriteLine(formatada);
+
 
         }
     }
