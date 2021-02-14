@@ -10,10 +10,10 @@ namespace MyApp
             Console.Clear();
 
             var data = DateTime.Now;
-
-            var formatada = String.Format("{0:T}", data);
-            //var formatada = String.Format("{0:D}", data);
-            Console.WriteLine(formatada);
+            Console.WriteLine(data);
+            Console.WriteLine(data.AddDays(-12));
+            Console.WriteLine(data.AddMonths(1));
+            Console.WriteLine(data.AddHours(1));
 
 
         }
