@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 
 namespace Numbers
 {
@@ -10,7 +11,11 @@ namespace Numbers
 
             decimal valor = 10.25m;
 
-            Console.WriteLine(valor);
+            Console.WriteLine(
+                valor.ToString(
+                    "C",
+                    CultureInfo.CreateSpecificCulture("pt-BR")
+                ));
         }
     }
 }
