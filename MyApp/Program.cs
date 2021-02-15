@@ -10,28 +10,34 @@ namespace MyApp
         {
             Console.Clear();
 
-            var utcDate = DateTime.UtcNow;
+            var timeSpan = new TimeSpan();
+            Console.WriteLine(timeSpan);
 
-            // Console.WriteLine(DateTime.Now);
-            // Console.WriteLine(utcDate);
+            var timeSpanNanosegundos = new TimeSpan(1);
+            Console.WriteLine(timeSpanNanosegundos);
 
-            // Console.WriteLine(utcDate.ToLocalTime());
+            var timeSpanHoraMinutoSegundo = new TimeSpan(5, 12, 8);
+            Console.WriteLine(timeSpanHoraMinutoSegundo);
 
-            // var timezoneAustralia = TimeZoneInfo.FindSystemTimeZoneById("Pacific/Auckland");
-            // Console.Write(timezoneAustralia);
+            var timeSpanDiaHoraMinutoSegundo = new TimeSpan(3, 5, 50, 10);
+            Console.WriteLine(timeSpanDiaHoraMinutoSegundo);
 
-            // var horaAustralia = TimeZoneInfo.ConvertTimeFromUtc(utcDate, timezoneAustralia);
-            // Console.WriteLine(horaAustralia);
+            var timeSpanDiaHoraMinutoSegundoMilissegundo = new TimeSpan(15, 12, 55, 8, 100);
+            Console.WriteLine(timeSpanDiaHoraMinutoSegundoMilissegundo);
 
-            var timezones = TimeZoneInfo.GetSystemTimeZones();
-            foreach (var timezone in timezones)
-            {
-                Console.WriteLine(timezone.Id);
-                Console.WriteLine(timezone);
-                Console.WriteLine(TimeZoneInfo.ConvertTimeFromUtc(utcDate, timezone));
-                Console.WriteLine("_________");
-            }
+            Console.WriteLine(timeSpanHoraMinutoSegundo - timeSpanDiaHoraMinutoSegundo);
+            Console.WriteLine(timeSpanDiaHoraMinutoSegundo.Days);
+            Console.WriteLine(timeSpanDiaHoraMinutoSegundo.Add(new TimeSpan(12, 0, 0)));
 
+            Console.WriteLine(DateTime.DaysInMonth(2020, 2));
+            Console.WriteLine(IsWeekend(DateTime.Now.DayOfWeek));
+            Console.WriteLine(DateTime.Now.IsDaylightSavingTime());
+
+        }
+
+        static bool IsWeekend(DayOfWeek today)
+        {
+            return today == DayOfWeek.Saturday || today == DayOfWeek.Sunday;
         }
     }
 }
