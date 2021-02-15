@@ -14,7 +14,7 @@ namespace DotnetLists
                 // {
                 //     Console.WriteLine(arr[index]);
                 // }
-                Cadastrar("");
+                Cadastrar("akjshdkjahsd");
             }
             catch (IndexOutOfRangeException ex)
             {
@@ -40,6 +40,11 @@ namespace DotnetLists
                 Console.WriteLine(ex.InnerException);
                 Console.WriteLine(ex.Message);
                 Console.WriteLine("Ops, algo deu errado!");
+            }
+            finally
+            {
+                //sempre passa no finally
+                Console.WriteLine("Chegou ao fim!");
             }
         }
 
