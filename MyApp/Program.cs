@@ -10,12 +10,27 @@ namespace MyApp
         {
             Console.Clear();
 
-            var pt = new CultureInfo("pt-PT");
-            var br = new CultureInfo("pt-BR");
-            var en = new CultureInfo("en-US");
-            var de = new CultureInfo("de-DE");
+            var utcDate = DateTime.UtcNow;
 
-            Console.WriteLine(DateTime.Now.ToString("D", br));
+            // Console.WriteLine(DateTime.Now);
+            // Console.WriteLine(utcDate);
+
+            // Console.WriteLine(utcDate.ToLocalTime());
+
+            // var timezoneAustralia = TimeZoneInfo.FindSystemTimeZoneById("Pacific/Auckland");
+            // Console.Write(timezoneAustralia);
+
+            // var horaAustralia = TimeZoneInfo.ConvertTimeFromUtc(utcDate, timezoneAustralia);
+            // Console.WriteLine(horaAustralia);
+
+            var timezones = TimeZoneInfo.GetSystemTimeZones();
+            foreach (var timezone in timezones)
+            {
+                Console.WriteLine(timezone.Id);
+                Console.WriteLine(timezone);
+                Console.WriteLine(TimeZoneInfo.ConvertTimeFromUtc(utcDate, timezone));
+                Console.WriteLine("_________");
+            }
 
         }
     }
