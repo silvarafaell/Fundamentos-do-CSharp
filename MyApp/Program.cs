@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 using System.Text;
 
 namespace MyApp
@@ -9,12 +10,13 @@ namespace MyApp
         {
             Console.Clear();
 
-            var data = DateTime.Now;
+            var pt = new CultureInfo("pt-PT");
+            var br = new CultureInfo("pt-BR");
+            var en = new CultureInfo("en-US");
+            var de = new CultureInfo("de-DE");
 
-            if (data.Date == DateTime.Now.Date)
-                Console.WriteLine("É igual");
+            Console.WriteLine(DateTime.Now.ToString("D", br));
 
-            Console.WriteLine(data);
         }
     }
 }
